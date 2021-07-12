@@ -1,0 +1,537 @@
+.navigation {
+    display: flex;
+    padding: 1rem 0 0.7rem 0;
+    
+}
+.nav_img {
+    
+}
+.nav_img img {
+    height: 30px;
+    width: 150px;
+    padding-left: 5rem;
+    object-fit: cover;
+}
+.nav_list {
+    padding-left: 12rem;
+    padding-top: 0.5rem;
+    
+}
+.nav_list li {
+    list-style: none;
+    display: inline;
+    color: #525462;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+}
+.nav_login {
+    list-style: none;
+    padding-left: 6rem;
+    padding-top: 0.5rem ;
+    padding-bottom: 1rem;
+}
+.nav_login li {
+    display: inline;
+    border: 1.5px solid #686b77;
+    border-radius: 5px;
+    color: #525462;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-right: 5px;
+    padding: 0.5rem 1rem;
+}
+.nav_login #quote {
+    background-color: #2d3040;
+    color: #cfd7e2;
+}
+
+/* input search for doctor and city */
+body {
+    margin: 0rem ;
+}
+.input_containers {
+    padding: 5rem 5rem;
+    background-color: #a8c6e0;
+    align-self: center;
+    text-align: center;
+    background-image: url(https://workspace.konfinity.com/swapnil/tvastra-wiki/-/wikis/uploads/678758a07377c9d0a803837c9bd7c55a/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    object-fit: cover;
+    background-size: cover;
+}
+/*
+.input_container {
+    background-color: #a8c6e0;
+    align-self: center;
+    text-align: center;
+    background-image: url(https://workspace.konfinity.com/swapnil/tvastra-wiki/-/wikis/uploads/678758a07377c9d0a803837c9bd7c55a/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+
+*/
+.input_container h1 {
+    
+    color: #2a2d3e;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: left;
+}
+.input_container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #3e5d7c;
+    text-align: left;
+}
+.form {
+    display: flex;
+}
+.input_container_city {
+    background-color: white;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    border-right: 2px solid #dfdfdf;
+
+}
+.map {
+    list-style: none;
+    float: left;
+    padding-top: 15px;
+    padding-left: 8px;
+    font-size: 1.2rem;
+}
+.crosshair {
+    list-style: none;
+    float: right;
+    padding: 1rem 0.5rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.input_container_city input{
+    outline: none;
+    border: none;
+    width: 70%;
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: left;
+    
+}
+.input_container_doctor {
+    background-color: white;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+    border-right: 2px solid #dfdfdf;
+}
+.input_container_doctor input{
+    outline: none;
+    border: none;
+    width: 90%;
+    font-size: 15px;
+    padding-top: 15px;
+    
+}
+.input_container button {
+    align-self: center;
+    background-color: #151e3b;
+    color: #cfd7e2;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 10px 2.5rem ;
+}
+/* How it work */
+#how_it_work_container {
+    padding: 0 5rem;
+}
+.how_it_work_container h2{
+    color: #2a2d3e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    
+}
+.how_it_work_container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #5b5b63;
+    
+}
+.how_it_work_container strong {
+    padding: 2rem;
+}
+.how_it_work_container #fix {
+    color:#272940;
+    border: 1.8px solid black;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+
+    
+}
+.how_it_work_container li {
+    list-style: none;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    color: #bfbfbf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 2rem 0;
+    margin-top: 5px;
+}
+.work_list_img {
+    display: flex;
+}
+.how_it_work_img {
+    text-align: center;
+    padding-left: 10rem;
+}
+.how_it_work_img figure img {
+   max-height:  30rem;
+   padding-top: 2rem;
+}
+.how_it_work_img figcaption {
+    text-align: center;
+}
+.how_it_work_list {
+    width: 25rem;
+    
+}
+
+/*world class experts doctor */
+#world_class_doctor {
+    background-color: #001a33;
+}
+.world_class_doctor {
+   
+}
+.world_class_doctor h2 {
+    color: white;
+    padding-left: 6rem;
+    padding-top: 4rem;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.world_class_doctor p {
+    color: white;
+    padding-left: 6rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+.doctors {
+    display: flex;
+    padding: 0.5rem 4rem;
+    
+}
+.card {
+    padding-left: 1rem;
+    height: 23rem;
+    width: 15rem;
+    
+}
+.card #image {
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    
+}
+.card #image img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+.card #intro {
+    position: relative;
+    background-color: white;
+    top: 13.5rem;
+    border-bottom: 5px solid #abdae4;
+}
+.card #intro h3 {
+    color: #117be1;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card #intro h3::before {
+    color: #0173b1;
+    content: "\00a0\00a0\00a0\00a0\00a0 ";
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    position: relative;
+    top: 3px;
+  
+}
+.card #intro p {
+    color: #555555;
+    font-style: normal;
+    text-align: left;
+    line-height: 8px;
+    margin-left: 2.2rem;
+    padding: 1px;
+    font-size: 0.8rem;
+}
+.card #intro #loc {
+    padding-bottom: 1rem;
+}
+.world_class_doctor #dot {
+    padding-left: 6rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    color: white;
+}
+.world_class_doctor #dot strong {
+    color: #8e9099;
+    border:1px solid green;
+    border-radius: 70%;
+}
+/* Feature Treatment */
+#medical_treatment {
+    padding: 1rem 5rem;
+}
+#medical_treatment h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+#medical_treatment p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
+.medical_treatment_doctors {
+    display: flex;
+}
+/* dentestry andorgan */
+.den_org {
+    
+}
+#den {
+    position: relative;
+    width: 20rem;
+    height: 15rem;
+    padding: 0.2rem;
+     }
+#den img {
+    height: 15rem;
+    width: 20rem;
+    object-fit: cover;
+}    
+#org {
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+    padding: 0.2rem;
+     }
+#org img {
+    height: 30rem;
+    width: 20rem;
+    object-fit: cover;
+    
+}    
+#org .specialists {
+    position: absolute;
+    bottom: 1px;
+    background-image: linear-gradient(transparent,#2a2d3e,#2a2d3e,#707f94);
+    width: 20rem;
+}
+/* cancer and ortho */
+#cancer {
+    position: relative;
+    width: 20rem;
+    height: 22.5rem;
+    object-fit: cover;
+    padding: 0.2rem;
+}
+#cancer img {
+    height: 22.5rem;
+    width: 20rem;
+    object-fit: cover;
+}
+#ortho {
+    position: relative;
+    width: 20rem;
+    height: 22.7rem;
+    object-fit: cover;
+    padding: 0.2rem;
+}
+#ortho img {
+    height: 22.7rem;
+    width: 20rem;
+    object-fit: cover;
+}
+/* cardiology and infertility */
+#cardiology {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    padding: 0.2rem;
+}
+#cardiology img {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+}
+#infertility {
+    position: relative;
+    width: 20rem;
+    height: 25.1rem;
+    object-fit: cover;
+    padding: 0.2rem;
+}
+#infertility img {
+    height: 25.1rem;
+    width: 20rem;
+    object-fit: cover;
+}
+.specialists {
+        position: absolute;
+        bottom: 4px;
+        background-image: linear-gradient(transparent,#2a2d3e,#2a2d3e,#707f94);
+        width: 20rem;
+ }
+.specialists h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding-top: 2rem;
+}   
+.specialists h5 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}   
+#dot2 {
+    font-size: 2rem;
+    padding-left: 1rem;
+    letter-spacing: 2px;
+}
+/* exclusive services */
+#exclusive_services {
+    background-color: #f3f3f3;
+    padding: 2rem 5rem 4rem 5rem;  
+}
+#exclusive_services h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 1rem;
+}
+#exclusive_services p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services {
+   display: flex;
+} 
+.services_type {
+    background-color: white;
+    width: 10rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 2px;
+}
+.services_type img {
+    height: 5rem;
+    width: 6rem;
+    object-fit: cover;
+}
+.services_type h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 1rem;
+    color: #bfbfbf;
+}
+/* Help Section */
+#help {
+    padding: 2rem 5rem;
+    background-color: #9cbfda;
+    display: flex;
+}
+#help h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#help p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.text {
+    
+}
+.button  {
+    
+    margin-left: 33.5rem;
+    padding-top: 2rem;
+    
+}
+.button button {
+    padding: 1rem 2rem;
+    background-color: #3c7abe;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+}
+/* footer Section */
+.footer {
+   display: flex;
+   padding-left: 5rem;
+   padding-top: 2rem;
+   border-bottom: 0.5rem solid #3c7abe;
+}
+#footer_list_para {
+   
+}
+#footer_list_para li {
+    list-style: none;
+    display: inline;
+    padding-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color:#3c4a57;
+}
+#footer_list_para p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#3c4a57;
+    font-size: 0.8rem;
+    padding-top: 2.5rem;
+}
+#footer_img_social {
+    text-align: center;
+    margin-left: 34rem;
+}
+#footer_img_social img {
+    height: 2rem;
+    width: 9rem;
+    padding-left: 3.5rem;
+}
+#footer_img_social h3 {
+    padding-left: 2rem;
+    padding-top: 0.8rem;
+}
+#footer_img_social i {
+    padding-left: 0.7rem;
+}
